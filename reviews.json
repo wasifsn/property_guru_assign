@@ -1,0 +1,323 @@
+[{
+  "_id": {
+    "$oid": "6460dc63ca690c24fb9c3259"
+  },
+  "productId": {
+    "$oid": "61512c57aa04a38e1c22c11a"
+  },
+  "rating": 4,
+  "title": "Great headphones!",
+  "description": "These headphones are amazing! The noise-cancellation works great and the sound quality is top-notch. I wear them all day at work and never have any discomfort. Highly recommend!",
+  "author": "John Doe",
+  "date": {
+    "$date": "2022-05-01T00:00:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "6460dc63ca690c24fb9c325a"
+  },
+  "productId": {
+    "$oid": "61512c57aa04a38e1c22c11a"
+  },
+  "rating": 5,
+  "title": "Best headphones ever!",
+  "description": "I have tried many different wireless headphones and these are by far the best. The sound quality is unbeatable and they are incredibly comfortable to wear. Highly recommend!",
+  "author": "Jane Smith",
+  "date": {
+    "$date": "2022-05-03T00:00:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "6460dc63ca690c24fb9c325b"
+  },
+  "productId": {
+    "$oid": "61512c57aa04a38e1c22c11a"
+  },
+  "rating": 4,
+  "title": "Great value for the price",
+  "description": "These headphones are a great value for the price. The noise-cancellation is decent and the sound quality is good. They're not as comfortable as some other brands I've tried, but for the price, they're definitely worth it.",
+  "author": "Bob Johnson",
+  "date": {
+    "$date": "2022-05-05T00:00:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "6460dc63ca690c24fb9c325c"
+  },
+  "productId": {
+    "$oid": "61512c57aa04a38e1c22c11a"
+  },
+  "rating": 5,
+  "title": "Amazing headphones!",
+  "description": "I can't say enough good things about these headphones. The sound quality is fantastic and they're incredibly comfortable to wear. The noise-cancellation works great and the battery life is impressive. Highly recommend!",
+  "author": "Sarah Thompson",
+  "date": {
+    "$date": "2022-05-08T00:00:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "6460dc63ca690c24fb9c325d"
+  },
+  "productId": {
+    "$oid": "61512c57aa04a38e1c22c11a"
+  },
+  "rating": 3,
+  "title": "Good sound quality, but not very comfortable",
+  "description": "The sound quality on these headphones is great, but they're not very comfortable to wear for long periods of time. They also don't fit very well on my head, which is disappointing. Overall, they're good headphones but not perfect.",
+  "author": "Mark Davis",
+  "date": {
+    "$date": "2022-05-10T00:00:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "6460dc63ca690c24fb9c325e"
+  },
+  "productId": {
+    "$oid": "61512c58aa04a38e1c22c11b"
+  },
+  "rating": 5,
+  "title": "Love this jacket!",
+  "description": "This jacket is amazing! It's warm, stylish, and fits perfectly. I get compliments on it all the time. The quality is great and it's definitely worth the price. Highly recommend!",
+  "author": "Emily Chen",
+  "date": {
+    "$date": "2022-05-02T00:00:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "6460dc63ca690c24fb9c325f"
+  },
+  "productId": {
+    "$oid": "61512c58aa04a38e1c22c11b"
+  },
+  "rating": 4,
+  "title": "Great jacket for the price",
+  "description": "This jacket is a great value for the price. It's warm and stylish, and fits well. The only downside is that it's not as high-quality as some other jackets I've owned, but for the price, it's definitely worth it.",
+  "author": "John Smith",
+  "date": {
+    "$date": "2022-05-06T00:00:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "6460dc63ca690c24fb9c3260"
+  },
+  "productId": {
+    "$oid": "61512c58aa04a38e1c22c11b"
+  },
+  "rating": 5,
+  "title": "Stylish and warm",
+  "description": "I love this jacket! It's stylish and warm, and fits perfectly. The quality is great and it's definitely worth the price. I get compliments on it all the time. Highly recommend!",
+  "author": "Rachel Lee",
+  "date": {
+    "$date": "2022-05-09T00:00:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "6460dc63ca690c24fb9c3261"
+  },
+  "productId": {
+    "$oid": "61512c58aa04a38e1c22c11b"
+  },
+  "rating": 3,
+  "title": "Not as warm as I expected",
+  "description": "This jacket is stylish and fits well, but it's not as warm as I expected. It's okay for cool weather, but definitely not suitable for very cold temperatures. The quality is good, but for the price, I expected better insulation.",
+  "author": "Kevin Johnson",
+  "date": {
+    "$date": "2022-05-10T00:00:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "6460dc63ca690c24fb9c3262"
+  },
+  "productId": {
+    "$oid": "61512c58aa04a38e1c22c11b"
+  },
+  "rating": 4,
+  "title": "Nice jacket",
+  "description": "This is a nice jacket that fits well and is stylish. It's not as warm as some other jackets I've owned, but it's good for cool weather. The quality is good and it's definitely worth the price.",
+  "author": "Lisa Kim",
+  "date": {
+    "$date": "2022-05-12T00:00:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "6460dc63ca690c24fb9c3263"
+  },
+  "productId": {
+    "$oid": "61512c58aa04a38e1c22c11c"
+  },
+  "rating": 4.2,
+  "title": "Great TV for the price",
+  "description": "I've been using this TV for a few weeks now and I'm really impressed with it. The picture quality is great and the sound is better than I expected. The smart features work well and the price was very reasonable. Overall, I'm very happy with my purchase.",
+  "author": "Jane Smith",
+  "date": {
+    "$date": "2022-05-08T16:45:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "6460dc63ca690c24fb9c3264"
+  },
+  "productId": {
+    "$oid": "61512c58aa04a38e1c22c11c"
+  },
+  "rating": 3.8,
+  "title": "Decent TV, but not without its flaws",
+  "description": "This TV has good picture quality and the smart features are decent, but there are a few things I don't like about it. The sound is not great and the remote is not very user-friendly. It's also a bit slow to respond at times. Overall, it's an okay TV but I wouldn't say it's amazing.",
+  "author": "Mike Johnson",
+  "date": {
+    "$date": "2022-05-07T13:20:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "6460dc63ca690c24fb9c3265"
+  },
+  "productId": {
+    "$oid": "61512c58aa04a38e1c22c11c"
+  },
+  "rating": 4.5,
+  "title": "Amazing TV for gaming",
+  "description": "I bought this TV specifically for gaming and it has not disappointed. The picture quality is excellent and the input lag is very low, making games feel very responsive. The smart features are also good and easy to use. I highly recommend this TV to any gamers out there.",
+  "author": "David Lee",
+  "date": {
+    "$date": "2022-05-06T19:10:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "6460dc63ca690c24fb9c3266"
+  },
+  "productId": {
+    "$oid": "61512c58aa04a38e1c22c11c"
+  },
+  "rating": 3,
+  "title": "Disappointed with the sound",
+  "description": "While the picture quality is good, I'm disappointed with the sound on this TV. It's very tinny and lacks depth. I've tried adjusting the settings but I can't seem to get it to sound good. If you plan to use external speakers, then this TV might be a good option, but if you're looking for good sound out of the box, then I would look elsewhere.",
+  "author": "Emily Chen",
+  "date": {
+    "$date": "2022-05-05T09:05:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "6460dc63ca690c24fb9c3267"
+  },
+  "productId": {
+    "$oid": "61512c58aa04a38e1c22c11c"
+  },
+  "rating": 4.8,
+  "title": "Best TV I've ever owned",
+  "description": "I've had this TV for a few months now and I can confidently say that it's the best TV I've ever owned. The picture quality is amazing and the sound is fantastic. The smart features are also great and easy to use. I would highly recommend this TV to anyone looking for a high-quality smart TV.",
+  "author": "Mark Davis",
+  "date": {
+    "$date": "2022-05-04T14:30:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "6460dc63ca690c24fb9c3268"
+  },
+  "productId": {
+    "$oid": "61512c58aa04a38e1c22c11d"
+  },
+  "rating": 4.5,
+  "title": "Great air fryer for small kitchens",
+  "description": "This air fryer is perfect for anyone with a small kitchen. It's compact but still has enough capacity to cook a decent amount of food. The controls are easy to use and the food comes out crispy and delicious. I highly recommend it!",
+  "author": "John Smith",
+  "date": {
+    "$date": "2021-10-10T12:30:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "6460dc63ca690c24fb9c3269"
+  },
+  "productId": {
+    "$oid": "61512c58aa04a38e1c22c11d"
+  },
+  "rating": 3.2,
+  "title": "Good air fryer, but a bit noisy",
+  "description": "This air fryer does a good job of cooking food, but it's quite noisy when it's in use. It also takes up a bit more space than I expected, so make sure you have enough counter space before buying. Overall, it's a decent air fryer for the price.",
+  "author": "Sarah Johnson",
+  "date": {
+    "$date": "2021-11-05T09:45:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "6460dc63ca690c24fb9c326a"
+  },
+  "productId": {
+    "$oid": "61512c58aa04a38e1c22c11d"
+  },
+  "rating": 5,
+  "title": "Best air fryer ever!",
+  "description": "I absolutely love this air fryer. It cooks food perfectly and quickly, and it's so easy to use. The controls are intuitive and the cleaning is a breeze. I highly recommend it to anyone looking for an air fryer.",
+  "author": "Emily Brown",
+  "date": {
+    "$date": "2021-11-12T16:20:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "6460dc63ca690c24fb9c326b"
+  },
+  "productId": {
+    "$oid": "61512c58aa04a38e1c22c11e"
+  },
+  "rating": 4.5,
+  "title": "Lovely leather handbag",
+  "description": "This leather handbag is beautiful and the quality is top-notch. It's spacious enough to carry all my essentials and has a few compartments for better organization. The strap is adjustable, so it can be worn over the shoulder or cross-body. Highly recommend!",
+  "author": "Emma Smith",
+  "date": {
+    "$date": "2021-12-10T10:30:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "6460dc63ca690c24fb9c326c"
+  },
+  "productId": {
+    "$oid": "61512c58aa04a38e1c22c11e"
+  },
+  "rating": 3.2,
+  "title": "Disappointed with the size",
+  "description": "I was disappointed with the size of this handbag - it's smaller than I expected and can't fit all my essentials. The quality is good, but it's not worth the price in my opinion. The strap is also a bit short for me, but that may not be an issue for everyone.",
+  "author": "Sophie Johnson",
+  "date": {
+    "$date": "2022-01-05T09:45:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "6460dc63ca690c24fb9c326d"
+  },
+  "productId": {
+    "$oid": "61512c58aa04a38e1c22c11e"
+  },
+  "rating": 5,
+  "title": "Stylish and practical handbag",
+  "description": "I love this leather handbag! It's stylish and goes with everything, but also practical with enough room for my essentials. The strap is comfortable and can be adjusted to my preferred length. The quality is great and it looks even better in person. Highly recommend!",
+  "author": "Olivia Brown",
+  "date": {
+    "$date": "2022-02-20T14:00:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "6460dc63ca690c24fb9c326e"
+  },
+  "productId": {
+    "$oid": "61512c58aa04a38e1c22c11e"
+  },
+  "rating": 4,
+  "title": "Nice leather handbag, but a bit heavy",
+  "description": "This leather handbag is nice and has good quality, but it's a bit heavier than I expected. The strap is comfortable, but the bag itself can be a bit cumbersome to carry around all day. It's still a good purchase overall, but be aware of the weight.",
+  "author": "Lily Rodriguez",
+  "date": {
+    "$date": "2022-03-10T11:30:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "6460dc63ca690c24fb9c326f"
+  },
+  "productId": {
+    "$oid": "61512c58aa04a38e1c22c11e"
+  },
+  "rating": 3.5,
+  "title": "Not worth the price",
+  "description": "I was disappointed with this leather handbag. While the quality is good, the design and size are not worth the price. It's smaller than I expected and can't fit all my essentials. The strap is also a bit short for me. I wouldn't recommend it.",
+  "author": "Mia Hernandez",
+  "date": {
+    "$date": "2022-04-15T08:00:00Z"
+  }
+}]

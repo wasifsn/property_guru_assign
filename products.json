@@ -1,0 +1,126 @@
+[{
+  "_id": {
+    "$oid": "61512c57aa04a38e1c22c11a"
+  },
+  "name": "Wireless Headphones",
+  "description": "Enjoy your music without the hassle of wires with these high-quality wireless headphones. With noise-cancellation technology and a long-lasting battery, you can immerse yourself in your favorite tunes for hours on end.",
+  "price": 99.99,
+  "color": "Black",
+  "size": "One Size",
+  "material": "Plastic",
+  "brand": "SoundTech",
+  "weight": 200,
+  "dimensions": {
+    "length": 20,
+    "width": 15,
+    "height": 5
+  },
+  "availability": true,
+  "image": "https://images.unsplash.com/photo-1658927420987-488ade098001?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
+  "categoryId": {
+    "$oid": "61512ab4aa04a38e1c22c104"
+  },
+  "launchDate": {
+    "$date": "2022-01-01T00:00:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "61512c58aa04a38e1c22c11b"
+  },
+  "name": "Cotton T-Shirt",
+  "description": "Stay comfortable and stylish all day long with this classic cotton t-shirt. With a variety of colors to choose from, you can easily find the perfect match for your style.",
+  "price": 19.99,
+  "color": "White",
+  "size": "M",
+  "material": "Cotton",
+  "brand": "Everyday Essentials",
+  "weight": 150,
+  "dimensions": {
+    "length": 20,
+    "width": 15,
+    "height": 2
+  },
+  "availability": true,
+  "image": "https://images.unsplash.com/photo-1523381294911-8d3cead13475?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
+  "categoryId": {
+    "$oid": "61512ab4aa04a38e1c22c105"
+  },
+  "launchDate": {
+    "$date": "2022-02-15T00:00:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "61512c58aa04a38e1c22c11c"
+  },
+  "name": "Smart TV",
+  "description": "Experience your favorite movies and TV shows like never before with this state-of-the-art smart TV. With ultra-high-definition display and built-in streaming services, you'll never miss a moment of your favorite content.",
+  "price": 999.99,
+  "color": "Black",
+  "size": "65 inches",
+  "material": "Plastic",
+  "brand": "TechVision",
+  "weight": 250,
+  "dimensions": {
+    "length": 60,
+    "width": 35,
+    "height": 5
+  },
+  "availability": false,
+  "image": "https://images.unsplash.com/photo-1461151304267-38535e780c79?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1933&q=80",
+  "categoryId": {
+    "$oid": "61512ab4aa04a38e1c22c104"
+  },
+  "launchDate": {
+    "$date": "2021-12-01T00:00:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "61512c58aa04a38e1c22c11d"
+  },
+  "name": "Air Fryer",
+  "description": "Cook your favorite fried foods without the guilt with this innovative air fryer. With a variety of temperature and time settings, you can easily achieve the perfect crispiness without all the extra oil.",
+  "price": 79.99,
+  "color": "Black",
+  "size": "4 Quartz",
+  "material": "Stainless Steel",
+  "brand": "KitchenTech",
+  "weight": 600,
+  "dimensions": {
+    "length": 12,
+    "width": 12,
+    "height": 15
+  },
+  "availability": true,
+  "image": "https://plus.unsplash.com/premium_photo-1672192166833-c8ae84e5e127?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80",
+  "categoryId": {
+    "$oid": "61512ab4aa04a38e1c22c106"
+  },
+  "launchDate": {
+    "$date": "2022-03-10T00:00:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "61512c58aa04a38e1c22c11e"
+  },
+  "name": "Leather Handbag",
+  "description": "Make a statement with this beautiful leather handbag. With plenty of space for all your essentials and a stylish design, you'll love carrying this bag wherever you go.",
+  "price": 199.99,
+  "color": "Brown",
+  "size": "Medium",
+  "material": "Leather",
+  "brand": "Fashionista",
+  "weight": 500,
+  "dimensions": {
+    "length": 30,
+    "width": 20,
+    "height": 10
+  },
+  "availability": true,
+  "image": "https://images.unsplash.com/photo-1523779105320-d1cd346ff52b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1746&q=80",
+  "categoryId": {
+    "$oid": "61512ab4aa04a38e1c22c105"
+  },
+  "launchDate": {
+    "$date": "2022-04-20T00:00:00Z"
+  }
+}]

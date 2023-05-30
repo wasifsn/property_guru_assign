@@ -64,8 +64,7 @@ const RootQuery = new GraphQLObjectType({
       args: { text: { type: GraphQLString } },
       async resolve(parent, args) {
         console.log('args', args);
-        // const products = await Product.find({ $text: { $search: args.text } });
-        const products = await Product.find({});
+        const products = await Product.find({ $text: { $search: args.text } });
 
         return products.map((q) => {
           return {

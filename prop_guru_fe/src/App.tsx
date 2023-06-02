@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { useState } from 'react';
 import './App.css';
 import SearchBar from './components/SearchBar';
@@ -10,7 +11,7 @@ import Grid from '@mui/material/Unstable_Grid2';
 
 function App() {
   const [search, setSearch] = useState('');
-  const [data, setData] = useState('');
+  const [data, setData] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(false);
 
@@ -34,7 +35,7 @@ function App() {
             <Grid container spacing={2} justifyContent={'center'} alignItems={'flex-start'}>
               {data &&
                 data.length &&
-                data.map((el) => (
+                data.map((el: any) => (
                   <Link key={el._id} to={`card/${el._id}`} state={el}>
                     <Grid xs display="flex" justifyContent="center" alignItems="center">
                       <MyCard productDetails={el}></MyCard>

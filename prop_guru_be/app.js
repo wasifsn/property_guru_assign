@@ -3,7 +3,7 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
-
+require('dotenv').config();
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const cors = require('cors');
@@ -44,7 +44,8 @@ app.use(
 
 // # MONGOOSE::DATABASE SETUP -/
 mongoose
-  .connect(`mongodb://127.0.0.1:27017/propertyguru`, {
+  // .connect(`mongodb://127.0.0.1:27017/propertyguru`, {
+  .connect(`mongodb+srv://wasifsn:${process.env.MONGO_PWD}@cluster0.hgx1gsu.mongodb.net/propertyguru`, {
     useUnifiedTopology: true,
     useNewUrlParser: true,
   })

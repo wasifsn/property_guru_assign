@@ -34,7 +34,7 @@ function App() {
           <Box sx={{ flexGrow: 1, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
             <Grid container spacing={2} justifyContent={'center'} alignItems={'flex-start'}>
               {data &&
-                data.length &&
+                data.length > 0 &&
                 data.map((el: any) => (
                   <Link key={el._id} to={`card/${el._id}`} state={el}>
                     <Grid xs display="flex" justifyContent="center" alignItems="center">

@@ -4,7 +4,7 @@
 //     DOMAIN: 'http://localhost:3000',
 //   },
 // };
-export const prod = { DOMAIN: 'https://34.100.132.66' };
+export const prod = { DOMAIN: 'https://lunar-spring-388615.el.r.appspot.com' };
 export const dev = {
   DOMAIN: 'http://localhost:3000',
 };

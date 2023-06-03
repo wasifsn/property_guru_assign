@@ -55,9 +55,10 @@ const CardDetail = () => {
         };
         setLoading(true);
         const reviews = await axios.post(
-          // `${import.meta.env.MODE == 'development' ? dev.DOMAIN : prod.DOMAIN}/graphql`,
-          `${import.meta.env.MODE == 'development' ? prod.DOMAIN : dev.DOMAIN}/graphql`,
-          body
+          `${import.meta.env.MODE == 'development' ? dev.DOMAIN : prod.DOMAIN}/graphql`,
+          // `${import.meta.env.MODE == 'development' ? prod.DOMAIN : dev.DOMAIN}/graphql`,
+          body,
+          { headers: { 'Access-Control-Allow-Origin': '*' } }
         );
         setReviews(reviews.data?.data?.reviews);
         setLoading(false);

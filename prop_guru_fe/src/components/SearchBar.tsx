@@ -10,7 +10,7 @@ import InputBase from '@mui/material/InputBase';
 import MenuIcon from '@mui/icons-material/Menu';
 import SearchIcon from '@mui/icons-material/Search';
 import axios from 'axios';
-import URL from '../../constants.js';
+import { prod, dev } from '../../constants.js';
 import debounce from 'lodash.debounce';
 
 const Search = styled('div')(({ theme }) => ({
@@ -82,8 +82,10 @@ export default function SearchAppBar({ search, setSearch, setData, setLoading, s
             `,
           };
           setLoading(true);
-          const productData = await axios.post(`${URL.dev.DOMAIN}/graphql`, body);
-          console.log(productData.data.data.products);
+          const productData = await axios.post(
+            `${import.meta.env.MODE == 'development' ? dev.DOMAIN : prod.DOMAIN}/graphql`,
+            body
+          );
           setData(productData.data?.data?.products);
           setLoading(false);
         } catch (error) {

@@ -45,7 +45,8 @@ app.use(
 // # MONGOOSE::DATABASE SETUP -/
 mongoose
   // .connect(`mongodb://127.0.0.1:27017/propertyguru`, {
-  .connect(`mongodb+srv://wasifsn:${process.env.MONGO_PWD}@cluster0.hgx1gsu.mongodb.net/propertyguru`, {
+  .connect(`mongodb+srv://wasifsn:winner123@cluster0.ocw0mfo.mongodb.net/propertyguru`, {
+    // .connect(`mongodb+srv://wasifsn:winner123@cluster0.ocw0mfo.mongodb.net/?retryWrites=true&w=majority/propertyguru`, {
     useUnifiedTopology: true,
     useNewUrlParser: true,
   })

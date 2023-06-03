@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, useLocation } from 'react-router-dom';
-import URL from '../../constants.js';
+import { prod, dev } from '../../constants.js';
 import axios from 'axios';
 import SimpleAccordion from './SimpleAccordion.js';
 import MyCard from './MyCard.js';
@@ -54,7 +54,10 @@ const CardDetail = () => {
           `,
         };
         setLoading(true);
-        const reviews = await axios.post(`${URL.dev.DOMAIN}/graphql`, body);
+        const reviews = await axios.post(
+          `${import.meta.env.MODE == 'development' ? dev.DOMAIN : prod.DOMAIN}/graphql`,
+          body
+        );
         setReviews(reviews.data?.data?.reviews);
         setLoading(false);
       } catch (error) {
